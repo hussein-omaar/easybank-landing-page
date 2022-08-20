@@ -1,0 +1,166 @@
+.footer {
+
+    height: 560px;
+    max-width: 100vw;
+    background-color: #2D314D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 10px;
+}
+
+.footer .left {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+.footer .left .social-icons {
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.footer .left .social-icons img {
+
+    width: 30px;
+}
+
+.footer .left .social-icons img:hover {
+
+    cursor: pointer;
+
+}
+
+
+
+.footer .middle nav {
+
+    padding-right: 40px;
+
+}
+
+.footer .middle nav ul {
+
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    gap: 1rem;
+    text-align: center;
+    padding-left: 35px;
+
+}
+
+.footer .middle nav ul li {
+
+
+    color: #fff;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.footer .middle nav ul li:hover {
+
+    color: #30CB56;
+}
+
+
+.footer .right {
+
+    text-align: center;
+}
+
+
+.footer .right .btn button {
+
+    padding: 14px;
+    color: #fff;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #32CF65, #2BB7D5);
+    border: none;
+    opacity: 1;
+
+}
+
+
+.footer .right .btn button:hover {
+
+    opacity: 0.6;
+
+}
+
+.footer .right .reserved-rights {
+
+    margin-top: 25px;
+
+}
+
+.footer .right .reserved-rights span {
+
+    color: #999EB2;
+    font-size: 15px;
+
+}
+
+
+@media (min-width:992px) {
+
+    .footer {
+
+        height: 180px;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .footer .left {
+
+        align-items: unset;
+    }
+
+    .footer .left {
+
+        gap: 3rem;
+    }
+
+    .footer .left .social-icons img {
+
+        width: 25px;
+    }
+
+    .footer .middle nav ul {
+
+        gap: 0.5rem;
+        grid-template-columns: repeat(2, 200px);
+        text-align: left;
+
+    }
+
+
+    .footer .middle nav ul li {
+
+        font-size: 18px;
+
+    }
+
+    .footer .right .reserved-rights {
+
+        width: 250px;
+        text-align: left;
+
+    }
+
+
+}
